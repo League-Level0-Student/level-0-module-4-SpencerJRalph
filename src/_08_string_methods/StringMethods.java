@@ -17,8 +17,8 @@ String name = "Spencer";
 		System.out.println(name.length());
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
-		for( int  i = 0; i > 0; i++);{
-			System.out.println(length());
+		for( int  i = 0; i < name.length(); i++){
+			System.out.println(name.charAt(i));
 		}
 		
 		// 5. Pick a char inside your String, and use a loop to determine
